@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .table-head {
+    @apply bg-blue-100 border text-left px-8 py-4
+  }
+  .link {
+    @apply underline text-blue-600 hover:text-blue-800 visited:text-purple-600
+  }
+}
